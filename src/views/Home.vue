@@ -5,9 +5,9 @@
                 <h1 id="title">Portfolio</h1>
                 <p>Haruki Tosa</p>
             </div>
-            <div v-if="this.show" class="profile">
-                <h2>Haruki Tosa</h2>
-            </div>
+        </div>
+        <div class="profile">
+            <h2>Haruki Tosa</h2>
         </div>
     </div>
 </template>
@@ -39,8 +39,15 @@ export default {
                 height: "15vh",
                 borderBottom: "1px solid black",
             })
-            .to(".profile", 0, {
-                display: "block"
+            .to(box, 0, {
+                width: "100vw",
+                height: "15vh",
+                borderBottom: "1px solid black",
+            })
+           .to(".profile", 0, {
+                display: "block",
+                backgroundColor: "#eee",
+                height: "120vh",
             })
     }
 }
@@ -63,6 +70,10 @@ export default {
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
+    }
+    .profile {
+      background-color: #eee;
+      height: 3000px;
     }
 }
 
