@@ -52,15 +52,15 @@ export default {
 }
 
 .box {
-    height: 0px;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: black;
     position: relative;
 }
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
