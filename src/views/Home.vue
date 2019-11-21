@@ -53,18 +53,17 @@ export default {
 
 .box {
     height: 100%;
-    width: 100%;
+    width: 100vw;
     background-color: black;
     position: relative;
-}
-
-.container {
-    width: 100vw;
-    height: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+    .container {
+        width: 100vw;
+        height: 85%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .title {
