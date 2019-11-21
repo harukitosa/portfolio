@@ -24,7 +24,7 @@ export default {
     mounted() {
         const { box } = this.$refs
         const timeline = new TimelineLite()
-        timeline.to(box, 1.5, {
+        timeline.to(box, 2.5, {
                 height: "100vh",
                 backgroundColor: "black",
                 // repeat: 1,
