@@ -63,7 +63,7 @@
             </div>
             <div class="language">
                 <h2 class="contact">contact</h2>
-                <div class="lang-1">
+                <div class="lang-1 mar-1">
                     <h5>Webサイト制作承っております。</h5>
                     <p>TwitterのDMまたはメールアドレス13haruki28@gmail.comまでご連絡ください。</p>
                 </div>
@@ -110,7 +110,7 @@ export default {
             .to(".profile", 0, {
                 display: "inline-block",
                 backgroundColor: "#eee",
-                height: "380vh",
+                // height: "380vh",
             })
     }
 }
@@ -165,6 +165,9 @@ export default {
             }
         }
     }
+}
+.mar-1 {
+    margin-bottom: 250px;
 }
 
 .box {
