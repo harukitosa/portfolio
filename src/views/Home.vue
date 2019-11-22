@@ -53,7 +53,12 @@
             <div class="language">
                 <h2>Works</h2>
                 <work title="学生団体warmth様" imgURL="https://warmth.netlify.com/img/logoImage.f98884c8.jpeg" type="web site(coding)" linkURL="https://warmth.netlify.com/"/>
-                <work title="eigoriila" imgURL="https://eigorilla-app.com/img/eigorilla.b6d7ee8d.png" type="web application" linkURL="https://eigorilla-app.com/"/>
+                <work title="eigorilla" imgURL="https://eigorilla-app.com/img/eigorilla.b6d7ee8d.png" type="web application" linkURL="https://eigorilla-app.com/"/>
+            </div>
+            <div class="language">
+                <h2>painting</h2>
+                <work title="学生団体warmth様" imgURL="https://lh3.googleusercontent.com/AP3mYvO0419nDGAQMJG6RGcAYS4lJ--TKdbvWzHl6_fHpfDERFzaVIm0gXXOhCSuBKaghiImTWBa24_JliBE1zlvgpHKVCa1-mTxZ6Vb3UIewK63tJeqavBvD2Vl15oyRxjCCugXZyDmLZizJYBHiy1zRrlNG3usW4-PkuT7Zx-yIvFyQ6ktHUbsAgwGq3yl9vNQjrAJ0v60abX3omBf6pO3obI2ptO7A8l-i-KMTvxiZmBr4bFAY2Nk5juOYFolRd0MxyXkW--IO6_W4htL59IWMqNB1VOBYqaU23d9g4-N7NdhN20TxhkBSSYgjV1HbwF-cdOfZQm-KcdUpyL2POA1A8vzCzJQyyyj0IrLOhNJ_F_HTJJOOjkGRXakxfszLQ2-klw02qACEqxdPTwWy1pr0m1kEQbZFFTp_kmyLnJvhULMUnD9YXq8o_ls4tdDeumfcg349KV_6TcINUWQXWgM5yk_crpEL_EH2igp-4tVoxnSSqCqTs2IQdfmqcQB8V7WeyJnLreKhADX7fX9U7pmJkYwcZ7LHfIAOp5eDNogIBmv8tAAn8n2wrqL_AIU8wjO8lH2YpOSwhaeeJw043gFzMNryyzNphOx6jr4sxqrvseBxaoRk0568i2_8DX2sNi-AJJvEzCQ5K2SOINwcvmaFf0iVP-8U2EfJIvjc5ZmAs98ujuxpg=w581-h774-no" type="web site(coding)" linkURL="https://warmth.netlify.com/"/>
+                <work title="eigorilla" imgURL="https://eigorilla-app.com/img/eigorilla.b6d7ee8d.png" type="web application" linkURL="https://eigorilla-app.com/"/>
             </div>
         </div>
     </div>
