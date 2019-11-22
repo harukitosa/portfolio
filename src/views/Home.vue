@@ -50,18 +50,26 @@
                     <p>heroku, netlify, firebase</p>
                 </div>
             </div>
+            <div class="language">
+                <h2>Works</h2>
+                <work/>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
 import { TimelineLite } from "gsap";
+import Work from "@/components/WorkApp.vue"
 export default {
     name: 'home',
     data() {
         return {
             show: true,
         }
+    },
+    components: {
+        Work,
     },
     mounted() {
         const { box } = this.$refs
@@ -88,7 +96,7 @@ export default {
             .to(".profile", 0, {
                 display: "inline-block",
                 backgroundColor: "#eee",
-                height: "120vh",
+                height: "220vh",
             })
     }
 }
@@ -144,7 +152,6 @@ export default {
 }
 
 .box {
-    height: 100%;
     width: 100vw;
     background-color: black;
     position: relative;
@@ -158,7 +165,6 @@ export default {
     }
     .profile {
         background-color: #eee;
-        height: 3000px;
     }
 }
 
