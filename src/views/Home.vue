@@ -7,7 +7,13 @@
             </div>
         </div>
         <div class="profile">
+          <div class="info">
             <h2>Haruki Tosa</h2>
+            <h3>2000/3/28</h3>
+            <h3>github</h3>
+            <h3>twitter</h3>
+            <h3>Mail</h3>
+          </div>
         </div>
     </div>
 </template>
@@ -44,7 +50,7 @@ export default {
                 height: "15vh",
                 borderBottom: "1px solid black",
             })
-           .to(".profile", 0, {
+            .to(".profile", 0, {
                 display: "block",
                 backgroundColor: "#eee",
                 height: "120vh",
@@ -56,6 +62,15 @@ export default {
 <style lang="scss" scoped>
 .profile {
     display: none;
+    width: 100vw;
+    .info {
+      width: 80vw;
+      max-width: 600px;
+      margin: auto;
+      @media screen and (max-width: 640px) {
+        width: 100vw;
+      }
+    }
 }
 
 .box {
@@ -72,8 +87,8 @@ export default {
         align-items: center;
     }
     .profile {
-      background-color: #eee;
-      height: 3000px;
+        background-color: #eee;
+        height: 3000px;
     }
 }
 
