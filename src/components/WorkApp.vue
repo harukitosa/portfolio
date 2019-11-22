@@ -8,29 +8,28 @@
 
 <script>
 export default {
-   props: {
-       Title: String,
-       Type: String,
-       ImgURL: String,
-   }
+    props: {
+        Title: String,
+        Type: String,
+        ImgURL: String,
+    }
 }
 </script>
 
 <style lang="scss" scoped>
 .work {
-    margin: auto;
-    display: inline-block;
     padding: 32px;
-    width: 80vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
     img {
         width: 60vw;
         max-width: 450px;
+        margin: auto;
     }
     p {
         font-size: 16px;
         font-weight: 500;
     }
 }
-
-
 </style>

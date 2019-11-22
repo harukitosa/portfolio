@@ -128,7 +128,6 @@ export default {
         margin: auto;
         padding: 16px 32px;
         @media screen and (max-width: 640px) {
-            width: 95vw;
             padding: 16px 32px;
         }
         h3 {
@@ -141,7 +140,7 @@ export default {
             }
             .row-container {
                 display: flex;
-                flex-flow: row nowrap;
+                flex-flow: column nowrap;
                 p {
                     font-size: 18px;
                     padding: 8px;
