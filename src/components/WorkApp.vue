@@ -21,7 +21,7 @@ export default {
     margin: auto;
     display: inline-block;
     padding: 32px;
-    width: 100vw;
+    width: 80vw;
     img {
         width: 60vw;
         max-width: 450px;
