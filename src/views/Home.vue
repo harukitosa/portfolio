@@ -86,7 +86,7 @@ export default {
                 borderBottom: "1px solid black",
             })
             .to(".profile", 0, {
-                display: "block",
+                display: "inline-block",
                 backgroundColor: "#eee",
                 height: "120vh",
             })
