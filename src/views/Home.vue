@@ -116,9 +116,10 @@ export default {
         width: 80vw;
         max-width: 600px;
         margin: auto;
-        padding: 18px 32px;
+        padding: 16px 0px;
         @media screen and (max-width: 640px) {
             width: 95vw;
+            padding: 5vw;
         }
         h3 {
             padding: 16px 0px;
