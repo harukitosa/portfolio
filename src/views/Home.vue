@@ -7,13 +7,49 @@
             </div>
         </div>
         <div class="profile">
-          <div class="info">
-            <h2>Haruki Tosa</h2>
-            <h3>2000/3/28</h3>
-            <h3>github</h3>
-            <h3>twitter</h3>
-            <h3>Mail</h3>
-          </div>
+            <div class="info">
+                <h2>Haruki Tosa</h2>
+                <h3>2000/3/28</h3>
+                <h3>github:<a href="https://github.com/harukitosa">@harukitosa</a></h3>
+                <h3>twitter:<a href="https://twitter.com/tosa_now">@tosa_now</a></h3>
+                <h3>Mail:13haruki28@gmail.com</h3>
+            </div>
+            <div class="language">
+                <h3>プログラミング言語</h3>
+                <div class="lang-1">
+                    <h5>個人制作使用経験あり</h5>
+                    <div class="row-container">
+                        <p>Golang/Javascript/html/css</p>
+                    </div>
+                </div>
+                <div class="lang-2">
+                    <h5>学習経験あり</h5>
+                    <div class="row-container">
+                        <p>C/Java</p>
+                    </div>
+                </div>
+            </div>
+            <div class="language">
+                <h3>フレームワーク</h3>
+                <div class="lang-1">
+                    <h5>個人制作使用経験あり</h5>
+                    <div class="row-container">
+                        <p>gin/gorilla/Vue.js</p>
+                    </div>
+                </div>
+                <div class="lang-2">
+                    <h5>学習経験あり</h5>
+                    <div class="row-container">
+                        <p>Nuxt.js</p>
+                    </div>
+                </div>
+            </div>
+            <div class="language">
+                <h3>インフラ</h3>
+                <div class="row-container">
+                    <p>heroku, netlify, firebase</p>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -33,7 +69,6 @@ export default {
         timeline.to(box, 2.5, {
                 height: "100vh",
                 backgroundColor: "black",
-                // repeat: 1,
                 color: "white",
             })
             .to(box, 1.5, {
@@ -64,12 +99,43 @@ export default {
     display: none;
     width: 100vw;
     .info {
-      width: 80vw;
-      max-width: 600px;
-      margin: auto;
-      @media screen and (max-width: 640px) {
-        width: 100vw;
-      }
+        width: 80vw;
+        max-width: 600px;
+        margin: auto;
+        padding: 32px;
+        @media screen and (max-width: 640px) {
+            width: 95vw;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            font-size: 18px;
+        }
+    }
+    .language {
+        width: 80vw;
+        max-width: 600px;
+        margin: auto;
+        padding: 18px 32px;
+        @media screen and (max-width: 640px) {
+            width: 95vw;
+        }
+        h3 {
+            padding: 16px 0px;
+        }
+        .lang-1, .lang-2{
+            h5 {
+                font-size: 16px;
+            }
+            .row-container {
+                display: flex;
+                flex-flow: row nowrap;
+                p {
+                    font-size: 18px;
+                    padding: 8px;
+                }
+            }
+        }
     }
 }
 
