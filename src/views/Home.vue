@@ -97,9 +97,11 @@ export default {
 <style lang="scss" scoped>
 .profile {
     display: none;
+    box-sizing: border-box;
     width: 100vw;
     .info {
         width: 80vw;
+        box-sizing: border-box;
         max-width: 600px;
         margin: auto;
         padding: 32px;
@@ -116,15 +118,16 @@ export default {
         width: 80vw;
         max-width: 600px;
         margin: auto;
-        padding: 16px 0px;
+        padding: 16px 32px;
         @media screen and (max-width: 640px) {
             width: 95vw;
-            padding: 5vw;
+            padding: 16px 32px;
         }
         h3 {
             padding: 16px 0px;
         }
-        .lang-1, .lang-2{
+        .lang-1,
+        .lang-2 {
             h5 {
                 font-size: 16px;
             }
