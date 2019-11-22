@@ -52,7 +52,8 @@
             </div>
             <div class="language">
                 <h2>Works</h2>
-                <work/>
+                <work title="学生団体warmth様" imgURL="https://warmth.netlify.com/img/logoImage.f98884c8.jpeg" type="web site(coding)" linkURL="https://warmth.netlify.com/"/>
+                <work title="eigoriila" imgURL="https://eigorilla-app.com/img/eigorilla.b6d7ee8d.png" type="web application" linkURL="https://eigorilla-app.com/"/>
             </div>
         </div>
     </div>
@@ -96,7 +97,7 @@ export default {
             .to(".profile", 0, {
                 display: "inline-block",
                 backgroundColor: "#eee",
-                height: "220vh",
+                height: "320vh",
             })
     }
 }
